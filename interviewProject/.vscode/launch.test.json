@@ -1,0 +1,30 @@
+{
+    "run": {
+        "default": "",
+        "items": [
+            {
+                "name": "interviewProject",
+                "projectName": "interviewProject",
+                "workingDirectory": "c:\\Users\\Main User\\repos\\mcProject\\interviewProject",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    },
+    "debug": {
+        "default": "",
+        "items": [
+            {
+                "name": "interviewProject",
+                "projectName": "interviewProject",
+                "workingDirectory": "c:\\Users\\Main User\\repos\\mcProject\\interviewProject",
+                "args": [],
+                "vmargs": [],
+                "env": {},
+                "preLaunchTask": ""
+            }
+        ]
+    }
+}
