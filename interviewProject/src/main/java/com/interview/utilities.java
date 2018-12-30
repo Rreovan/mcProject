@@ -16,6 +16,10 @@ import org.openqa.selenium.WebElement;
 public class utilities {
     Logger logger = Logger.getLogger(utilities.class.getName());
 
+    /**
+     * Write 3 columns to an sxce3l file
+     * @param listToBeAdded
+     */
     public void writeExcelData(List<WebElement> listToBeAdded){
         try {
                 XSSFWorkbook workbook = new XSSFWorkbook();
@@ -35,7 +39,6 @@ public class utilities {
                 }
                 String fileLocation = System.getProperty("user.home");
                 logger.info("the file has been saved to:  "+fileLocation);
-                //FileOutputStream outputStream = new FileOutputStream("C:\\Users\\Main User\\Documents\\JavaBooks.xlsx");
                 FileOutputStream outputStream = new FileOutputStream(fileLocation+"\\InterviewMailChimp.xlsx");
                     workbook.write(outputStream);
                     workbook.close();

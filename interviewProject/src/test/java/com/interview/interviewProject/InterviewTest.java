@@ -1,32 +1,14 @@
 package com.interview.interviewProject;
 
-import java.io.InputStream;
-import java.net.URL;
 import java.util.List;
-import java.util.logging.Level;
 import java.util.logging.Logger;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
 import com.interview.click;
 import com.interview.utilities;
-import javax.swing.text.Element;
-import java.util.Arrays;
-
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.xssf.usermodel.XSSFSheet;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.By.ByLinkText;
 import org.openqa.selenium.chrome.ChromeDriver;
-import junit.framework.AssertionFailedError;
 
 /**
  * Unit test for simple App.
